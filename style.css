@@ -1,0 +1,371 @@
+		@import url('https://fonts.googleapis.com/css?family=ABeeZee:400,400i');
+		div{
+			border-radius: 4px;
+		}
+
+		body{
+			background-color: #ffffff;
+			color: black;
+			font-family: 'ABeeZee', sans-serif;
+		}
+
+/*HEADER*/
+		.header{
+			display: flex;
+			width: (100vw-2px);
+			background-color: #3f51b5;
+			height: 10vh;
+			justify-content: flex-start;
+			border: 1px solid #002984;
+			
+		}
+		.headleft{
+			display: flex;
+			justify-content: flex-start;
+			flex: 1;
+		}
+		.headright{
+			display: flex;
+			justify-content: flex-end;
+			flex: 1;	
+		}
+
+		.logga{
+			font-size: 45pt;
+			align-self: center;
+			margin: 0 0 0 10px;
+			font-weight: bold;
+			text-decoration: none;
+			color: white;
+		}
+
+		.buttonNav{
+			display: flex;
+			background-color: #757de8;
+			color: white;
+			margin: 0 1px;
+			padding: 0 3px;
+			flex-basis: 100px;
+			min-width: 75px;
+			max-height: 10vh;
+			min-height: 10vh;
+			justify-content: center;
+			align-items: center;
+			text-decoration: none;
+			text-align: center;
+
+		}
+		.buttonNavActive{
+			display: flex;
+			background-color: #52c7b8;
+			color: white;
+			margin: 0 1px;
+			padding: 0 3px;
+			flex-basis: 100px;
+			min-width: 75px;
+			max-height: 10vh;
+			min-height: 10vh;
+			border-radius: 0px 0px 30px 30px;
+			justify-content: center;
+			align-items: center;
+			text-decoration: none;
+			text-align: center;
+
+		}
+		
+		.buttonNavActive:hover{
+			transform: scale(1.05);
+			transform: scale(1.05);
+			transition: 0.5s;
+			box-shadow: 10px 0px 16px -1px #00675b, -10px 0px 16px -1px #00675b;
+			z-index: 1;
+		}
+		.buttonNav:hover{
+			transform: scale(1.05);
+			transition: 0.5s;
+			box-shadow: 10px 0px 16px -1px #002984, -10px 0px 16px -1px #002984;
+			z-index: 1;
+			border-radius: 0px 0px 30px 30px;
+		}
+		
+
+
+/*LEFT NAVIGATION BAR*/
+
+		.leftNav{
+			display: flex;
+			flex: 1;
+			width: 100%;
+			background-color: #002884;
+			margin-right: 5px;
+			border: 1px solid #002984;
+		}
+
+		.leftNavButton{
+			display: flex;
+			background-color: #757ce8;
+			border-radius: 4px;
+			text-align: center;
+			border: 1px solid #002984;
+			width: 80%;
+			padding: 20px;
+			justify-content: center;
+
+		}
+
+		.leftNavButton:hover{
+			transform: scale(1.05);
+			transition: 0.5s;
+			box-shadow: 10px 0px 16px -1px #002984, -10px 0px 16px -1px #002984;
+			z-index: 1;
+			border-radius: 4px 30px 30px 4px;
+			
+		}
+
+		.leftNavButtonActive{
+			display: flex;
+			background-color: #52c7b8;
+			border-radius: 4px;
+			text-align: center;
+			border: 1px solid #002984;
+			flex-shrink: 0;
+			padding: 20px;
+			justify-content: center;
+			border-radius: 4px 30px 30px 4px;
+			margin-right: -20px;
+		}
+
+		.leftNavButtonSmall{
+			display: flex;
+			background-color: #757ce8;
+			border-radius: 4px;
+			width: 90%;
+			text-align: center;
+			border: 1px solid #002984;
+			padding: 10px;
+			justify-content: center;
+		}
+
+		.leftNavButtonSmallActive{
+			display: flex;
+			background-color: #4dd0e1;
+			margin-right: -20px;
+			border-radius: 4px;
+			text-align: center;
+			border: 1px solid #002984;
+			flex-shrink: ;
+			padding: 10px;
+			justify-content: center;
+			border-radius: 4px 30px 30px 4px;
+		}
+		.leftNavButtonSmall:hover{
+			transform: scale(1.05);
+			transition: 0.5s;
+			box-shadow: 10px 0px 16px -1px #002984, -10px 0px 16px -1px #002984;
+			border-radius: 4px 30px 30px 4px;
+			z-index: 1;
+
+		}
+
+		.leftNavButtonSmallActive:hover{
+			transform: scale(1.05);
+			transition: 0.5s;
+			box-shadow: 10px 0px 16px -1px #002984, -10px 0px 16px -1px #002984;
+			z-index: 1;
+
+		}
+
+		.leftNavButtonActive:hover{
+			transform: scale(1.05);
+			transition: 0.5s;
+			box-shadow: 10px 0px 16px -1px #002984, -10px 0px 16px -1px #002984;
+			z-index: 1;
+		}
+
+
+		 li a{
+			color: white;
+			text-decoration: none;
+		}
+		li{
+			color: #3f51b5;
+		}
+		li ul li{
+			list-style: disc;
+			color: #3f51b5;
+
+		}
+		
+		
+/*MAIN CONTENT*/
+		.page{
+			display: flex;
+			width: 100%;
+			margin: 5px 0px;
+		}
+
+		.content{
+			display: flex;
+			height: 100%;
+			min-height: 76.7vh;
+			background-color: #009688;
+			align-items: center;
+			justify-content: center;
+			border: 1px solid #002984;
+			width: 100%;
+			flex: 4;	
+		}
+
+		.imgright{
+			justify-content: flex-end;
+			max-width: 480px;
+			height: auto;
+			align-self: center;
+			margin: 50px;
+			border-radius: 5px;
+			border: 1px solid #002984;
+			box-shadow: 0px 0px 24px 0px #00675B;
+		}
+
+		figure{
+			margin-top: 0;
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.text{
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			align-items: center;
+			margin-bottom: 50px;
+
+		}
+
+		table{
+			border: 1px solid #002984;
+			border-radius: 5px;
+			text-align: center;
+			padding: 10px;
+			background-color: #52c7b8;
+			margin: 25px;
+			width: 20%;
+			min-width: 200px;
+			box-shadow: 0px 0px 24px 0px #00675B;
+			}
+
+		.text ul li{
+				color: black;
+			}
+
+		td{
+			border: 1px solid #002984;
+			padding: 10px;
+		}
+
+		.ls{
+			background-color: yellow;
+		}
+
+		.hs{
+			background-color: orange;
+		}
+
+		/*FOOTER*/
+
+		.footer{
+			display: flex;
+			width: 100%;
+			background-color: #3f50b5;
+			height: 20vh;
+			justify-content: flex-start;
+			align-items: center;
+			border: 1px solid #002984;
+			color: white;
+		}
+		
+		address{
+			margin: 0 15px;
+		}
+
+		.kontaktemail{
+			color: #52c7b8;
+		}
+
+		p{
+			margin: 25px 50px;
+		}
+		h1{
+			text-align: center;
+		}
+
+		input, select{
+			margin: 5px 0;
+		}
+
+		tr th{
+			padding-bottom: 10px;
+		}
+
+
+
+		
+
+		form{
+			display: flex;
+			flex-direction: column;
+			border: 1px solid #002984;
+			border-radius: 5px;
+			padding: 25px;
+			align-items: center;
+			background-color: #52c7b8;
+			margin: 50px;
+			box-shadow: 0px 0px 24px 0px #00675B;
+		}
+		form div{
+			margin: 5px;
+		}
+
+		.fritext{
+			display: block;
+			width: 300px;
+			height: 200px;
+
+		}
+		.submit{
+			border-radius: 5px;
+			background-color: #002984;
+			border: 1px solid white;
+			color: white;
+		}
+
+		.olsorter{
+			border: 1px solid #002984;
+			border-radius: 5px;
+			padding: 10px;
+			background-color: #52c7b8;
+			list-style: inside;
+		}
+
+		.portfolio{
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			align-items: center;
+		}
+		figure{
+			display: flex;
+			flex-direction: column;
+
+		}
+		
+		
+		
+		iframe{
+			border: 4px solid black;
+			border-radius: 4px;
+			box-shadow: 0px 0px 24px 0px #00675B;
+		}
+
+		

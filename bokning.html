@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset="utf-8">
+	<title>Priser & Bokning</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<div class="headleft">
+			<a href="lerbornslusthus.html" class="logga"><div>Lerborns Lusthus</div></a>
+			
+		</div>
+		<div class="headright">
+			<a href="lerbornslusthus.html" class="buttonNav">Hem</a>
+			<a href="omoss.html" class="buttonNav">Om mig</a>
+			<a href="bokning.html" class="buttonNavActive">Priser & Bokning</a>
+			<a href="kontakt.html" class="buttonNav">Kontakta oss</a>
+		</div>
+
+	</div>
+	
+	<div class="page">
+		
+		<div class="content">
+			<div class="text">
+				<h1>Priser & Bokning</h1>
+				<p>I dagsläget är det <strong>endas</strong>t möjligt att boka lusthuset på <strong>helg- och/eller vecko-basis</strong>. Prisexempel finns nedan. Vid särskilda önskemål kan ytterligare kostnader förekomma, vänligen kontakta mig för en mer korrekt prisbild. <strong>Skador på fastigheten kommer att leda till ytterligare kostnader för ersättning av skador.</strong></p>
+				
+					<table>
+						<thead>
+							<tr>
+								<th colspan="2">Prisexempel</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="ls">Helg lågsäsong</td>
+								<td class="ls">2000 kr</td>
+							</tr>
+							<tr>
+								<td class="ls">Vecka lågsäsong</td>
+								<td class="ls">5000 kr</td>
+							</tr>
+							<tr>
+								<td class="hs">Helg högsäsong</td>
+								<td class="hs">4500 kr</td>
+							</tr>
+							<tr>
+								<td class="hs">Vecka högsäsong</td>
+								<td class="hs">9000 kr</td>
+							</tr>
+						</tbody>
+					</table>
+				<form action="mailto:bokning@lerbornslusthus.se" class="kontaktform" method="post">
+					<div>
+						<label>Förnamn:</label>
+						<input type="text" name="firstName" placeholder="Förnamn">
+					</div>
+					<div>
+						<label>Efternamn:</label>
+						<input type="text" name="lastName" placeholder="Efternamn">
+					</div>
+					<div>
+						<label>E-mailadress:</label>
+						<input type="email" name="eMail" placeholder="xxx@gmail.com">
+					</div>
+					<div>
+						<label>Välj om ni vill boka vecka eller helg:</label>
+						<select name="bokningstyp">
+							<option value="vecka">Vecka</option>
+							<option value="helg">Helg</option>
+						</select>
+					</div>
+					<div>
+						<label>Välj det datum från och med när ni vill boka lusthuset:</label>
+						<input type="date" name="startdatum">
+						
+					</div>
+					<input type="submit" value="Submit" class="submit">
+					
+				</form>
+		</div>
+	</div>
+</div>
+	<div class="footer">
+		<address>
+				Liam Lerborn<br/>
+				Lerborns Lusthus<br/>
+				653 42 Karlstad<br/>
+				Sverige<br/>
+				070-1234567<br/>
+				Email: <a href="mailto:kontakt@lerbornslusthus.se" class="kontaktemail">kontakt@lerbornslusthus.se</a>
+			</address>
+	</div>
+
+</body>
+</html>
