@@ -373,23 +373,20 @@
 
 
 .container-audio {
-    width: 66%;
+    width: 40%;
     height: auto;
     padding: 20px;
-    border-radius: 5px;
+    
     border: #757DE8;
     
     margin: 20px auto;
     overflow: hidden;
 }
-.audio {
+audio {
   width:100%;
   
   color: #757DE8;
 
 }
 
-source{
-	
-	color: #757DE8;
-}
+
