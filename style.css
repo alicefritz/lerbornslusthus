@@ -75,13 +75,16 @@
 		
 		.buttonNavActive:hover{
 			transform: scale(1.05);
-			transform: scale(1.05);
+			border: 1px solid #009688;
+			border-bottom: none;
 			transition: 0.5s;
 			box-shadow: 10px 0px 16px -1px #00675b, -10px 0px 16px -1px #00675b;
 			z-index: 1;
 		}
 		.buttonNav:hover{
 			transform: scale(1.05);
+			border: 1px solid #002984;
+			border-bottom: none;
 			transition: 0.5s;
 			box-shadow: 10px 0px 16px -1px #002984, -10px 0px 16px -1px #002984;
 			z-index: 1;
