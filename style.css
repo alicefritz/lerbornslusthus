@@ -252,6 +252,7 @@
 			z-index: 5;
 
 			transform: scale(2) rotate(90deg);
+			transition-duration: 0.5s;
 			
 		}
 
